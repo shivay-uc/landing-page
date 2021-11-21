@@ -132,6 +132,10 @@ h3 {
 .service-block h3 {
   font-size: 20px;
 }
+.google-map {
+  float: right;
+  margin: 0 0 20px 20px;
+}
 footer {
   background-color: #404040;
   color: white;
