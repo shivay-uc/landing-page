@@ -20,6 +20,9 @@ header {
   background-image: url(../img/bg.jpg);
   background-size: cover;
 }
+.header-small {
+  height: 240px;
+}
 nav ul {
   list-style-type: none;
 }
@@ -47,6 +50,28 @@ nav ul li a {
   padding-top: 20px;
 }
 #brand h1 span {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+#brand-small {
+  text-align: center;
+  padding-top: 20px;
+}
+#brand-small img {
+  float: left;
+  height: 70px;
+  padding-top: -8px;
+  padding-right: 10px;
+}
+#brand-small h1 {
+  float: left;
+  font-size: 50px;
+  line-height: 70%;
+  color: white;
+  padding-top: 20px;
+}
+#brand-small h1 span {
   color: white;
   font-size: 50px;
   font-weight: normal;
