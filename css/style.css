@@ -10,6 +10,11 @@ body {
   padding: 0 40px;
   margin: auto;
 }
+.clearfix {
+  clear: both;
+  content: '';
+  display: table;
+}
 header {
   height: 600px;
   background-image: url(../img/bg.jpg);
@@ -27,4 +32,22 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+#brand {
+  text-align: center;
+  padding-top: 100px;
+}
+#brand img {
+  height: 70px;
+}
+#brand h1 {
+  font-size: 78px;
+  line-height: 70%;
+  color: #3598db;
+  padding-top: 20px;
+}
+#brand h1 span {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
 }
