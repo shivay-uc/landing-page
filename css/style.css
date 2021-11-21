@@ -100,6 +100,18 @@ h2 {
   list-style-type: disc;
   list-style-position: inside;
 }
+.team {
+  float: right;
+  padding-left: 15px;
+}
+h3 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.about-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
 footer {
   background-color: #404040;
   color: white;
