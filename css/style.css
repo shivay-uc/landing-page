@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   line-height: 180%;
   color: #505050;
+  min-width: 558px;
 }
 .wrapper {
   max-width: 1200px;
@@ -36,6 +37,9 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
 }
+nav ul li a :hover {
+  color: #7cccff;
+}
 #brand {
   text-align: center;
   padding-top: 100px;
@@ -55,7 +59,6 @@ nav ul li a {
   font-weight: normal;
 }
 #brand-small {
-  text-align: center;
   padding-top: 20px;
 }
 #brand-small img {
@@ -65,11 +68,11 @@ nav ul li a {
   padding-right: 10px;
 }
 #brand-small h1 {
-  float: left;
   font-size: 50px;
-  line-height: 70%;
+  line-height: 100%;
   color: white;
   padding-top: 20px;
+  margin-top: -8px;
 }
 #brand-small h1 span {
   color: white;
@@ -121,6 +124,7 @@ h3 {
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 30px;
+  min-width: 300px;
 }
 .service-block-last {
   margin-right: 0;
@@ -135,6 +139,12 @@ h3 {
 .google-map {
   float: right;
   margin: 0 0 20px 20px;
+}
+.link-active {
+  color: #7cccff;
+}
+nav ul .li-last {
+  padding-right: 0;
 }
 footer {
   background-color: #404040;
