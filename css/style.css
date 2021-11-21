@@ -112,6 +112,26 @@ h3 {
   list-style-type: disc;
   list-style-position: inside;
 }
+.service-block {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  background-color: #f5f5f5;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.service-block-last {
+  margin-right: 0;
+}
+.serivce-block img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.service-block h3 {
+  font-size: 20px;
+}
 footer {
   background-color: #404040;
   color: white;
